@@ -75,6 +75,11 @@ SAM model will return up to 3 candidate masks. Use the left and right arrow
 keys to switch between them. Click the "Save" button on the left pane or press
 Enter again to save the mask.
 
+
+
+https://github.com/venklab/labelwsi/assets/49696876/03e60e14-4365-41b5-85c3-45920b40745a
+
+
 Please note that SAM mode processes the entire image, so it's not practical for
 using on large images. It's recommended to use SAM mode only on small images,
 such as a 1333x800 pixels image in the training dataset. SAM mode is disabled
