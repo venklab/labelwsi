@@ -27,7 +27,7 @@ from gi.repository import Gtk, Gdk, GdkPixbuf, GLib, Gio, GObject
 from segment_anything import sam_model_registry
 from segment_anything import SamAutomaticMaskGenerator, SamPredictor
 
-sys.path.insert(1, os.path.join(sys.path[0], '..'))
+#sys.path.insert(1, os.path.join(sys.path[0], '..'))
 from aperio.utslide import UTSlide
 from aperio.utslide import query_db
 from aperio.utslide import mask2rleblob, rleblob2mask

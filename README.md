@@ -53,6 +53,13 @@ ealier version, such as version 0.36 is required. Find libpixman-1.so.0.38.0 in
 conda environment directory,e.g. ~/.conda/envs/labelwsi/lib and replace it with
 an ealier version.
 
+## Build libutimage
+
+Labelwsi uses a function from libutimage to speed up resizing binary masks. Go
+to `https://github.com/venklab/libutimage`. Clone that repository and build the
+shared library, then create a symbolic link from `libutimage/utimage` to
+`utimage` under the root of labelwsi.
+
 
 ## Usage
 
